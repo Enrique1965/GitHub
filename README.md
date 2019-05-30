@@ -94,6 +94,7 @@ nano gitpush.sh<br>
 >  chmod +x gitpush.sh <br>
    ./gitpush.sh
 
+> movi gitpush.sh a /home/bin para que este disponible en el path y pueda ser reusable en los demas repos
 
 **Use SSH**    
 Para no tener que dar user y clave cada vez que hagamos push a git usar ssh key
