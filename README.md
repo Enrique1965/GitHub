@@ -2,20 +2,19 @@
 
 Pasos para usar Github
 
-git config --global user.email "you@example.com"
-git config --global user.name "Your Name"
-git config --list
+git config --global user.email "you@example.com"<br>
+git config --global user.name "Your Name"<br>
+git config --list<br>
 
-Github
+Github<br>
 [Github Tutorial For Beginners - Github Basics for Mac or Windows & Source Control Basics][sa-1]
 
 * git clone https://github.com/Enrique1965/GitHub.git
 * git clone https://github.com/Enrique1965/testrepo.git
 
 * git status
-* git add README.md
-* git add -A (add all)
-* git commit -m "agregue README.md comentario"
+* git add README.md o * git add -A (add all) o git add --all
+* git commit -m "agregue README.md comentario" o
 * git commit -m "Hice cambios"
 * git push
 * [Basic Git commands][sa-2]
@@ -37,9 +36,9 @@ Github
   nombre del repositorio.
 
   Para no tener que dar user y clave cada vez que hagamos push a git usar ssh key
-  [Eliminate Password on git push by Generating SSH keys for Github][sa-4]
-
-  [GitHub Pages and Jekyll Beginner Video][sa-3]
+    * [Eliminate Password on git push by Generating SSH keys for Github][sa-4]
+  Para subir y tener hospedada un static website para nuestro blog en github
+    * [GitHub Pages and Jekyll Beginner Video][sa-3]
 
   [sa-1]: https://www.youtube.com/watch?v=0fKg7e37bQE
   [sa-2]: https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
