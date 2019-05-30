@@ -1,6 +1,6 @@
 ## GitHub
 
-Pasos para usar Github
+### Pasos para usar Github
 
 git config --global user.email "you@example.com"<br>
 git config --global user.name "Your Name"<br>
@@ -90,8 +90,10 @@ nano gitpush.sh<br>
   read
 ```
 
+
 >  chmod +x gitpush.sh <br>
    ./gitpush.sh
+
 
 **Use SSH**    
 Para no tener que dar user y clave cada vez que hagamos push a git usar ssh key
