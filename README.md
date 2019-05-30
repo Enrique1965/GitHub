@@ -63,7 +63,6 @@ Lastly rename de local client directory
 no se pudo!
 es mas complicado hacer un git multiple.
 
-
 In the *.git/config* file you can add multiple urls to a defined remote:
 [remote "all"]
     url=ssh://user@server/repos/g0.git
@@ -78,6 +77,18 @@ Ej.
 **Git multi options**]
   * [git multiple repository management][6]
   * [git multi][7]
+
+**solucion con script sh**
+nano gitpush.sh
+    git add -A
+    echo 'Enter the commit message:'
+    read commitMessage
+    git commit -m "$commitMessage"
+    git push
+    read
+
+  chmod +x gitpush.sh
+  ./gitpush.sh
 
 **Use SSH**    
 Para no tener que dar user y clave cada vez que hagamos push a git usar ssh key
