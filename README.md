@@ -78,17 +78,20 @@ Ej.
   * [git multiple repository management][6]
   * [git multi][7]
 
-**solucion con script sh**
-nano gitpush.sh
-    git add -A
-    echo 'Enter the commit message:'
-    read commitMessage
-    git commit -m "$commitMessage"
-    git push
-    read
+**solucion con script sh**<br>
+nano gitpush.sh<br>
 
-  chmod +x gitpush.sh
-  ./gitpush.sh
+```Bash
+  git add -A
+  echo 'Enter the commit message:'
+  read commitMessage
+  git commit -m "$commitMessage"
+  git push
+  read
+```
+
+>  chmod +x gitpush.sh <br>
+   ./gitpush.sh
 
 **Use SSH**    
 Para no tener que dar user y clave cada vez que hagamos push a git usar ssh key
